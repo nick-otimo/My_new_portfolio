@@ -4,6 +4,7 @@ import { Handshake } from 'lucide-react';
 
 const Partnerships: React.FC = () => {
   return (
+    comingSoon : true
     <section id="partnerships" className="py-20 bg-gray-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
