@@ -31,7 +31,7 @@ const About: React.FC = () => {
               </a>
               <a 
                 href={aboutContent.cvLink}
-                download="John_Doe_CV.pdf"
+                download="CURRICULUM VITAE (1).pdf"
                 className="px-6 py-3 bg-gray-800 text-white font-medium rounded-lg border border-purple-500/30 hover:border-purple-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2"
               >
                 <svg
