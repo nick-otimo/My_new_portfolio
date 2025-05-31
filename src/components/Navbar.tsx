@@ -34,14 +34,13 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-         <a 
-  href="#home" 
-  className="font-mono text-3xl font-bold tracking-tight"
->
-  <span className="text-white">Nick</span>
-  <span className="bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text ml-2">Otimo</span>
-</a>
-
+          <a 
+            href="#home" 
+            className="font-mono text-3xl font-bold tracking-tight flex items-center space-x-2"
+          >
+            <span className="text-white">Nick</span>
+            <span className="bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text">Otimo</span>
+          </a>
 
           <div className="hidden md:flex items-center space-x-8">
             <ul className="flex space-x-8">
