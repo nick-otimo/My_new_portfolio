@@ -31,10 +31,10 @@ const Footer: React.FC = () => {
               href="#home" 
               className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400"
             >
-              John Doe
+              Nick Otimo
             </a>
             <p className="mt-2 text-gray-400 max-w-md">
-              Creating exceptional digital experiences with modern web technologies.
+              I pioneer Sustainable practices.
             </p>
           </div>
           
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {currentYear} John Doe. All rights reserved.
+            &copy; {currentYear} Nick Otimo. All rights reserved.
           </p>
           
           <div className="mt-4 md:mt-0">
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-purple-400 transition-colors duration-300">
+                <a href="https://maps.app.goo.gl/xQairMQh5Jc6Rcqs5" className="hover:text-purple-400 transition-colors duration-300">
                   Sitemap
                 </a>
               </li>
