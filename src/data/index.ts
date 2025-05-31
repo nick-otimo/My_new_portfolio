@@ -114,7 +114,7 @@ export const volunteerRoles: VolunteerRole[] = [
     organization: 'IEEE',
     description: 'Organizing events to help spread the gospel about IEEE.',
     duration: '2024 - 2024',
-    imageUrl: '/public/IEEE-Day-2024.webp', // <-- Add your image here
+    imageUrl: '/IEEE-Day-2024.webp', // <-- Add your image here
   }
 ];
 
