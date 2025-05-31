@@ -16,17 +16,16 @@ const Hero: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-purple-400 text-lg mb-4">Hi there! I'm</p>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="text-white">John</span>
+            <span className="text-white">Nick</span>
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text"> Doe</span>
           </h1>
           
           <h2 className="text-2xl md:text-3xl font-medium text-gray-400 mb-8">
-            Full-Stack Developer
+           Data science Scholar
           </h2>
           
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            I create exceptional digital experiences that are both beautiful and functional.
-            Let's work together to bring your ideas to life.
+            I'm a student passionate about using technology to transform, make it more than modern because i believe in what tech can do
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
