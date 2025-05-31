@@ -13,16 +13,19 @@ const Hero: React.FC = () => {
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-purple-400 text-lg mb-4">Hi there! I'm</p>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="text-white">Nick</span>
-            <span className="bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text"> Otimo</span>
-          </h1>
-          
-          <h2 className="text-2xl md:text-3xl font-medium text-gray-400 mb-8">
-           Data science Scholar
-          </h2>
+       <div className="max-w-4xl mx-auto text-center font-mono">
+  <p className="text-purple-400 text-lg mb-4">Hi there! I'm</p>
+  
+  <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+    <span className="text-white">Nick</span>
+    <span className="bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text"> Otimo</span>
+  </h1>
+  
+  <h2 className="text-2xl md:text-3xl font-medium text-gray-400 mb-8">
+    Data science Scholar
+  </h2>
+</div>
+
           
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
             I'm a student passionate about using technology to transform, make it more than modern because i believe in what tech can do
