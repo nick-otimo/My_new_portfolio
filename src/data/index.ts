@@ -74,21 +74,21 @@ export const projects: Project[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  { name: 'GitHub', icon: 'github', url: 'https://github.com' },
-  { name: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com' },
-  { name: 'Twitter', icon: 'twitter', url: 'https://twitter.com' },
-  { name: 'Facebook', icon: 'facebook', url: 'https://facebook.com' },
+  { name: 'GitHub', icon: 'github', url: 'https://github.com/nick-otimo' },
+  { name: 'LinkedIn', icon: 'linkedin', url: 'https://www.linkedin.com/in/nick-otimo-8718262a4/' },
+  { name: 'Twitter', icon: 'twitter', url: 'https://x.com/otimo_nick' },
+  { name: 'Facebook', icon: 'facebook', url: 'https://www.facebook.com/profile.php?id=100088992733458' },
   { name: 'Instagram', icon: 'instagram', url: 'https://instagram.com' },
 ];
 
 export const aboutContent = {
   title: 'About Me',
-  description: `Hello! I'm a passionate and dedicated professional with expertise in data science, engineering, IoT, and geospatial analysis. My journey in tech began 5 years ago, and I've been building innovative solutions ever since.
+  description: `Hello! I'm a passionate and dedicated professional with expertise in data science, engineering, IoT, and geospatial analysis. My journey in tech began 2 years ago, and I've been building innovative solutions ever since.
 
 I specialize in creating data-driven solutions and implementing cutting-edge technologies across various domains. My approach combines technical expertise with creative problem-solving to deliver exceptional results that exceed expectations.
 
 When I'm not working on projects, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities to maintain a healthy work-life balance.`,
-  image: 'https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  image: '/public/namuyee.png',
   cvLink: '/CURRICULUM VITAE (1).pdf'
 };
 export const volunteerRoles: VolunteerRole[] = [
@@ -114,7 +114,7 @@ export const volunteerRoles: VolunteerRole[] = [
     organization: 'IEEE',
     description: 'Organizing events to help spread the gospel about IEEE.',
     duration: '2024 - 2024',
-    //imageUrl: '/images/ieee-day-ambassador.jpg', // <-- Add your image here
+    imageUrl: '/public/IEEE-Day-2024.webp', // <-- Add your image here
   }
 ];
 
