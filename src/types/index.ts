@@ -30,6 +30,7 @@ export interface VolunteerRole {
   organization: string;
   description: string;
   duration: string;
+  imageUrl?: string;
 }
 
 export interface Partnership {
