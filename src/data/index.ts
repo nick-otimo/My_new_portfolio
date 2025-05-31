@@ -88,25 +88,24 @@ export const aboutContent = {
 I specialize in creating data-driven solutions and implementing cutting-edge technologies across various domains. My approach combines technical expertise with creative problem-solving to deliver exceptional results that exceed expectations.
 
 When I'm not working on projects, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities to maintain a healthy work-life balance.`,
-  image: '/public/namuyee.png',
+  image: '/namuyee.png',
   cvLink: '/CURRICULUM VITAE (1).pdf'
 };
+
 export const volunteerRoles: VolunteerRole[] = [
   {
     id: 1,
     title: 'Tech Mentor',
     organization: 'Code for Change',
     description: 'Mentoring underprivileged youth in programming and digital skills, helping bridge the technology gap in our community.',
-    duration: '2024 - Present',
-   // imageUrl: '/images/volunteer-tech-mentor.jpg', // Replace with your image path
+    duration: '2024 - Present'
   },
   {
     id: 2,
     title: 'STEM Education Volunteer',
     organization: 'Local Schools Initiative',
     description: 'Leading workshops and hands-on activities to inspire the next generation of scientists and engineers.',
-    duration: '2024 - Present',
-    //imageUrl: '/images/volunteer-stem-education.jpg', // Replace with your image path
+    duration: '2024 - Present'
   },
   {
     id: 3,
@@ -114,10 +113,8 @@ export const volunteerRoles: VolunteerRole[] = [
     organization: 'IEEE',
     description: 'Organizing events to help spread the gospel about IEEE.',
     duration: '2024 - 2024',
-    imageUrl: '/IEEE-Day-2024.webp', // <-- Add your image here
+    imageUrl: '/IEEE-Day-2024.webp'
   }
-];
-
 ];
 
 export const partnerships: Partnership[] = [
