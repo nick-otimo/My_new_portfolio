@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
 
           
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            I'm a student passionate about using technology to transform, make it more than modern because i believe in what tech can do
+            "As a student, I'm passionate about leveraging technology not just to modernize, but to revolutionize the world—because I believe in tech's potential to build a better tomorrow."
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
