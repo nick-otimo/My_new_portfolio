@@ -13,38 +13,36 @@ const Hero: React.FC = () => {
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
-       <div className="max-w-4xl mx-auto text-center font-mono">
-  <p className="text-purple-400 text-lg mb-4">Hi there! I'm</p>
-  
-  <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-    <span className="text-white">Nick</span>
-    <span className="bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text"> Otimo</span>
-  </h1>
-  
-  <h2 className="text-2xl md:text-3xl font-medium text-gray-400 mb-8">
-    Data science Scholar
-  </h2>
-</div>
+        <div className="max-w-4xl mx-auto text-center font-mono">
+          <p className="text-purple-400 text-lg mb-4">Hi there! I'm</p>
+          
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <span className="text-white">Nick</span>
+            <span className="bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text"> Otimo</span>
+          </h1>
+          
+          <h2 className="text-2xl md:text-3xl font-medium text-gray-400 mb-8">
+            Data science Scholar
+          </h2>
+        </div>
 
-          
-          <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            "As a student, I'm passionate about leveraging technology not just to modernize, but to revolutionize the world—because I believe in tech's potential to build a better tomorrow."
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <a 
-              href="#projects" 
-              className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:from-purple-600 hover:to-pink-600"
-            >
-              View My Work
-            </a>
-            <a 
-              href="#contact" 
-              className="px-8 py-4 bg-gray-800 text-white font-medium rounded-lg border border-purple-500/30 hover:border-purple-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-            >
-              Contact Me
-            </a>
-          </div>
+        <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+          "As a student, I'm passionate about leveraging technology not just to modernize, but to revolutionize the world—because I believe in tech's potential to build a better tomorrow."
+        </p>
+        
+        <div className="flex flex-col sm:flex-row gap-6 justify-center">
+          <a 
+            href="#projects" 
+            className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:from-purple-600 hover:to-pink-600"
+          >
+            View My Work
+          </a>
+          <a 
+            href="#contact" 
+            className="px-8 py-4 bg-gray-800 text-white font-medium rounded-lg border border-purple-500/30 hover:border-purple-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+          >
+            Contact Me
+          </a>
         </div>
       </div>
       
