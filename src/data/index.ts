@@ -89,31 +89,35 @@ I specialize in creating data-driven solutions and implementing cutting-edge tec
 
 When I'm not working on projects, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities to maintain a healthy work-life balance.`,
   image: 'https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  cvLink: '/John_Doe_CV.pdf'
+  cvLink: '/CURRICULUM VITAE (1).pdf'
 };
-
 export const volunteerRoles: VolunteerRole[] = [
   {
     id: 1,
     title: 'Tech Mentor',
     organization: 'Code for Change',
     description: 'Mentoring underprivileged youth in programming and digital skills, helping bridge the technology gap in our community.',
-    duration: '2022 - Present'
+    duration: '2024 - Present',
+   // imageUrl: '/images/volunteer-tech-mentor.jpg', // Replace with your image path
   },
   {
     id: 2,
     title: 'STEM Education Volunteer',
     organization: 'Local Schools Initiative',
     description: 'Leading workshops and hands-on activities to inspire the next generation of scientists and engineers.',
-    duration: '2021 - Present'
+    duration: '2024 - Present',
+    //imageUrl: '/images/volunteer-stem-education.jpg', // Replace with your image path
   },
   {
     id: 3,
-    title: 'Environmental Tech Advisor',
-    organization: 'Green Earth Project',
-    description: 'Providing technical expertise for environmental conservation projects and sustainable technology initiatives.',
-    duration: '2023 - Present'
+    title: 'IEEE Day Ambassador',
+    organization: 'IEEE',
+    description: 'Organizing events to help spread the gospel about IEEE.',
+    duration: '2024 - 2024',
+    //imageUrl: '/images/ieee-day-ambassador.jpg', // <-- Add your image here
   }
+];
+
 ];
 
 export const partnerships: Partnership[] = [
