@@ -3,8 +3,20 @@ import { partnerships } from '../data';
 import { Handshake } from 'lucide-react';
 
 const Partnerships: React.FC = () => {
+  const comingSoon = true;
+
+  if (comingSoon) {
+    return (
+      <section id="partnerships" className="py-20 bg-gray-900 text-center text-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Partnerships & Collaborations</h2>
+          <p className="text-gray-400">Coming Soon...</p>
+        </div>
+      </section>
+    );
+  }
+
   return (
-    comingSoon : true
     <section id="partnerships" className="py-20 bg-gray-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
@@ -61,3 +73,4 @@ const Partnerships: React.FC = () => {
 };
 
 export default Partnerships;
+
