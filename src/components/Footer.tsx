@@ -26,17 +26,18 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-900 py-12 border-t border-gray-800">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-6 md:mb-0">
-            <a 
-              href="#home" 
-              className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400"
-            >
-              Nick Otimo
-            </a>
-            <p className="mt-2 text-gray-400 max-w-md">
-              I pioneer Sustainable practices.
-            </p>
-          </div>
+         <div className="mb-6 md:mb-0 font-mono">
+  <a 
+    href="#home" 
+    className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400"
+  >
+    Nick Otimo
+  </a>
+  <p className="mt-2 text-gray-400 max-w-md">
+    I pioneer Sustainable practices.
+  </p>
+</div>
+
           
           <div className="flex space-x-4">
             {socialLinks.map(link => (
